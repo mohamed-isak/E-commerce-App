@@ -1,0 +1,92 @@
+.banner-left {
+  background: #faf8ed;
+  height: 36rem;
+  position: relative;
+  top: -97px;
+  z-index: -1;
+}
+
+.banner-right {
+  background: #fff0ca 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 90px 0px;
+  height: 36rem;
+  position: relative;
+  top: -97px;
+  z-index: -1;
+}
+
+.banner-container {
+  position: relative;
+  width: 100vw;
+  margin-top: 72pt;
+}
+
+.banner-container img {
+  position: absolute;
+  height: 83%;
+  left: 30%;
+  z-index: 1;
+}
+
+.banner-container .img-text-wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+}
+
+.banner-container .img-text-wrapper img {
+  left: -22px;
+  bottom: 53px;
+}
+
+.banner-container .img-text-wrapper span {
+  z-index: 100;
+}
+
+.banner-container .img-text-wrapper h5 {
+  text-align: left;
+  font: normal normal bold 30px Caladea;
+  letter-spacing: 0px;
+  color: #000d41;
+}
+
+.banner-container .img-text-wrapper .t-shirt-icon {
+  left: 74%;
+  top: 37%;
+}
+
+.banner-container .banner-left .img-text-wrapper {
+  top: 39%;
+  width: 8rem;
+  left: 23%;
+}
+
+.banner-container .banner-right .img-text-wrapper {
+  top: 39%;
+  width: 11rem;
+  right: 16%;
+}
+
+.works-conatiner {
+  margin-bottom: 3rem;
+}
+
+.works-conatiner .info-box-conatiner {
+  margin-bottom: 2rem;
+}
+
+.works-conatiner .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.works-conatiner .img-box-conatiner.second {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: -135px;
+}
+/*# sourceMappingURL=HomePageComponent.css.map */

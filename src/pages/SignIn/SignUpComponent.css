@@ -1,0 +1,26 @@
+.sign-up-container .card {
+  margin: auto;
+  border: none;
+}
+
+.sign-up-container .card .p-field {
+  margin-top: 1.5em;
+}
+
+.sign-up-container .card button {
+  margin: 1.5em 0;
+  float: right;
+  height: 2.5em;
+}
+
+.sign-up-container .card .forgot-pwd {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10pt;
+  letter-spacing: 0.03px;
+  color: #FF6740;
+  cursor: pointer;
+}
+/*# sourceMappingURL=SignUpComponent.css.map */

@@ -1,0 +1,106 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-up-container {
+  width: 75%;
+  margin: 4em auto;
+}
+
+.profile-up-container .card {
+  padding-top: 3em !important;
+  margin: auto;
+  border: none;
+}
+
+.profile-up-container .card .p-field {
+  margin-top: 1.5em;
+}
+
+.profile-up-container .card button {
+  margin: 1.5em 0;
+  float: right;
+  height: 2.5em;
+}
+
+.profile-up-container .card .forgot-pwd {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10pt;
+  letter-spacing: 0.03px;
+  color: #ff6740;
+  cursor: pointer;
+}
+
+.profile-myorder-conatiner {
+  margin: 10% 0% 10% 0%;
+}
+
+.profile-myorder-conatiner .bredcrumb__custom__align {
+  margin: 0px 0px 0px 36px;
+}
+
+.profile-myorder-conatiner .myOrderBody {
+  margin: 60px 0px 0px 0px;
+}
+
+.profile-myorder-conatiner .myOrderBody .Order__item__Card {
+  -webkit-box-shadow: 0px 2px 0px #e7e8ec80;
+          box-shadow: 0px 2px 0px #e7e8ec80;
+  border: 1px solid #fafafa;
+}
+
+.profile-myorder-conatiner .myOrderBody .OrderFilerDropdown {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+}
+
+.profile-myorder-conatiner .myOrderBody .Order__item__Header {
+  margin: 20px auto;
+  background-color: #f4f5f7;
+  width: 100%;
+  border-radius: 10px;
+  padding: 14px 0px 14px 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.profile-myorder-conatiner .myOrderBody .Order__item__Header__values {
+  margin: 7px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.profile-myorder-conatiner .myOrderBody .Order__item__Header__values__align {
+  margin-top: 17px;
+}
+
+.profile-myorder-conatiner .myOrderBody DropdownButton {
+  background-color: red !important;
+}
+
+.profile-myorder-conatiner .myOrderBody .Myorder__product__Image {
+  height: 100px;
+  width: 75px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0px 0px 0px 5px;
+}
+
+.profile-myorder-conatiner .myOrderBody .product__Basic__details {
+  margin: 0px 10px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.profile-myorder-conatiner .myOrderBody .btn-custom {
+  margin-top: 17px !important;
+  background-color: white;
+  color: red;
+}
+/*# sourceMappingURL=ProfileComponent.css.map */

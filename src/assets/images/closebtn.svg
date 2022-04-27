@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Background" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#e7e8ec" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="close" transform="translate(-1531 -918)">
+    <g transform="matrix(1, 0, 0, 1, 1531, 918)" filter="url(#Background)">
+      <g id="Background-2" data-name="Background" transform="translate(9 3)" fill="#fff" stroke="#fafafa" stroke-width="1">
+        <rect width="40" height="40" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="close-fill" transform="translate(1548 929)">
+      <path id="Path_38540" data-name="Path 38540" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_38541" data-name="Path 38541" d="M12,10.586l4.95-4.95L18.364,7.05,13.414,12l4.95,4.95L16.95,18.364,12,13.414l-4.95,4.95L5.636,16.95,10.586,12,5.636,7.05,7.05,5.636Z" fill="#4f617d" stroke="#4e617c" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.profile-up-container {
+  width: 75%;
+  margin: 4em auto;
+  .card {
+    padding-top: 3em !important;
+    margin: auto;
+    border: none;
+
+    .p-field {
+      margin-top: 1.5em;
+    }
+    button {
+      margin: 1.5em 0;
+      float: right;
+      height: 2.5em;
+    }
+    .forgot-pwd {
+      margin-top: 1em;
+      display: flex;
+      font-size: 10pt;
+      letter-spacing: 0.03px;
+      color: #ff6740;
+      cursor: pointer;
+    }
+  }
+}
+.profile-myorder-conatiner {
+  margin: 10% 0% 10% 0%;
+  // height: 500px !important;
+  .bredcrumb__custom__align{
+      margin: 0px 0px 0px 36px;
+  }
+  .myOrderBody {
+    margin: 60px 0px 0px 0px;
+    .Order__item__Card{
+        box-shadow: 0px 2px 0px #e7e8ec80;
+        border: 1px solid #fafafa;
+    }
+    .OrderFilerDropdown {
+      background-color: white;
+      color: black;
+      font-size: 14px;
+    }
+
+    .Order__item__Header {
+      margin: 20px auto;
+      background-color: #f4f5f7;
+      width: 100%;
+      border-radius: 10px;
+      padding: 14px 0px 14px 20px;
+      font-weight: bold;
+      color: black;
+      font-size: 15px;
+    }
+    
+    .Order__item__Header__values {
+      font-size: 15px;
+        font-weight: 700;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+      .Order__item__Header__values {
+        font-size: 15px;
+          font-weight: 700;
+          padding-bottom:10px
+  
+      }
+
+
+
+
+
+    };
+
+
+    .Order__item__Header__deliver__status{
+      align-items: center;
+    }
+    .Order__item__Header__values__align{
+      margin-top: 17px;
+      margin-left: 10px;
+    }
+    DropdownButton{
+        background-color: red!important;
+    }
+
+    .Myorder__product__Image{
+        height: 100px;
+        width: 75px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 0px 0px 0px 5px;
+    }
+   .product__Basic__details{
+       margin: 0px 10px;
+       margin-left: 10px;
+       font-size: 15px;
+       margin-top: 8px;
+       line-height: 25px
+   }
+   .btn-custom{
+    margin-top: 17px!important;
+       background-color: white;
+       color: red;
+      
+   }
+  }
+}
+@media screen and (max-width: 491px) { /*mobile media query*/
+  .product__Basic__details{
+    align-items: flex-end ;
+    font-size: 12px;
+    line-height: 25px
+}
+  }

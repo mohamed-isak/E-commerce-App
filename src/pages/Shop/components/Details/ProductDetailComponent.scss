@@ -1,0 +1,133 @@
+.product-detail-conatiner {
+   margin-top: 100px;
+   .product-bredcrumb {
+       padding: 1em;
+       button{
+           float: right;
+       }
+   }
+   .p-galleria-thumbnail-container {
+        background: none;
+        .p-galleria-thumbnail-item {
+            overflow: hidden;
+            width: 50px !important;
+    height: 50px !important;
+        }
+        .p-galleria-thumbnail-item-current {
+          border:  2px solid #FF6740;
+        }
+       
+   }
+   .p-galleria-item {
+    align-items: flex-start;
+   }
+   .prdct-name-txt {
+    font: normal normal 600 26px/27px Montserrat;
+    letter-spacing: 0.05px;
+    color: #000D41;
+   }
+   .product-desc {
+    font: normal normal medium 18px/28px Montserrat;
+    letter-spacing: 0.04px;
+    color: #909BAD;
+   }
+   .old-price{
+       color:#909BAD;
+       text-decoration: line-through;
+       margin-left: .4em;
+   }
+   .size-label {
+    margin-top: 1.5em;
+   }
+   .chart-link {
+      color: #FF6740;
+      cursor: pointer;
+      margin-left: 2em;
+   }
+   .qty-label {
+       margin-left: 5em;
+   }
+  .sizes-container {
+   display: flex;
+   .size-item {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E6E9EA;
+    border-radius: 6px;
+    padding: 0 .5em;
+    margin: .2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: 500;
+   }
+   .p-dropdown {
+    width: 40pt;
+    height: 20pt;
+    line-height: 5pt;
+   }
+   
+   }
+   .color-label {
+       margin-top: 1em;
+   }
+   .color-container{
+       display: flex;
+       width: 10%;
+       justify-content: space-between;
+       .blackItem {
+         .p-radiobutton-icon, .p-radiobutton-box {
+            background-color: #000000 !important;
+        }
+        .greyItem {
+             .p-radiobutton-icon, .p-radiobutton-box {
+                background-color: #9FA8AB !important;
+            }
+       }
+    }
+   }
+   .btn-container {
+       margin-top: 2.5em;
+       display: flex;
+      justify-content: space-between;
+       width: 56%;
+
+       .cart-btn {
+         width: 130pt;
+         font-weight: 500;
+         font-size: 10pt;
+       }
+       .wish-btn {
+         
+        width: 130pt;
+        font-weight: 500;
+        font-size: 10pt;
+      }
+   }
+   .product-specs-ul {
+       list-style: none;
+   }
+   .review-bar {
+    line-height: 0rem;
+    margin-top: 1em;
+    .p-progressbar {
+        height: 6px;
+        width: 50%;
+       margin-left: 1em;
+    }
+   }
+
+   .selectedSize {
+        border-color: #FF6740 !important;
+        color: #FF6740;
+    }
+    .p-radiobutton{
+        border: 1px solid !important;
+       }
+       .p-radiobutton .p-radiobutton-box{
+        border: 0px solid #ced4da !important;
+        background: none !important;
+       }
+       .p-radiobutton .p-radiobutton-box .p-radiobutton-icon{
+       background-color: #ff6740 !important;
+       }
+}

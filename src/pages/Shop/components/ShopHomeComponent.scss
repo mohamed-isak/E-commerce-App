@@ -1,0 +1,128 @@
+.shop-banner-container {
+    margin-top: 100px;
+    background: #FFF0CA;
+    height: 250pt;  
+    border-radius: 0px 0px 90px 0px;
+    .shop-banner-left {
+      .text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #000D41;
+        h2{
+            font-weight: 600;
+            font: normal normal bold 60px/70px Caladea;
+        }
+        .p-text{
+            font: normal normal medium 22px/70px Montserrat;
+        }
+      }
+    }
+    .shop-banner-right {
+        position: relative;
+        img{
+            position: absolute;
+            top: 1em;
+        }
+    }
+}
+.trend-container {
+    width: 75%;
+    margin: 4em auto;
+    h3 {
+        color: #000D41;
+        font: normal normal bold 32px/39px Montserrat;
+    }
+.trend-product-container {
+    font-size: 10pt;
+    cursor: pointer;
+    .img-wrapper {
+        background: #F6F6F8 0% 0% no-repeat padding-box;
+        box-shadow: 0px 6px 10px #00000000;
+        border-radius: 22px;  
+        img{
+            margin-left: 11%;
+
+        }
+        .offer-box {
+            position: absolute;
+            right: 0em;
+            background: #FFA121;
+            margin:2em;
+            background: #FFA121 0% 0% no-repeat padding-box;
+            border-radius: 16px;
+            color: #fff;
+            padding: .2em .4em;
+        }
+        
+    }
+    .product-desc{
+        margin-top: 1em;
+        color: #000D41;
+     }
+     .trend-prdct-price {
+        margin-top: .5em;
+        span {
+            text-decoration: line-through;
+            color: #909BAD;
+            margin-left: 1em;
+        }
+     }
+
+}
+}
+.top-designers-container {
+    background: #F4F5F7 0% 0% no-repeat padding-box;
+   // width: 75%;
+    margin: auto;
+    padding: 2em 0;
+    h3 {
+        color: #000D41;
+        font: normal normal bold 32px/39px Montserrat;
+    }
+.carosel-head {
+    width: 75%;
+    margin: auto;
+}
+}
+
+    
+
+.style-category-container {
+    width: 75%;
+    margin: 2em auto;
+    background: #FFF9EB 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    padding: 2em;
+    .header-row {
+           width: 100%;
+    }
+    .fit-item {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 0px #ffe8b5;
+    border: 1px solid #FAFAFA;
+    border-radius: 12px;
+    margin-top: 1.5em ;
+    margin-left: 1.5em;
+    height: fit-content;
+    padding: 2em;
+    ul {
+        list-style: none;
+        letter-spacing: 0.03px;
+        line-height: 1.3em;
+        font: normal normal medium 16px/30px Montserrat;
+
+        li {
+            font-size: 10pt;
+            color: #000D41;
+            
+        }
+    }
+    button {
+        position: absolute;
+    bottom: 0em;
+    }
+    
+}
+    }

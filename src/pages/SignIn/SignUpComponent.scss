@@ -1,0 +1,25 @@
+.sign-up-container {
+
+    .card {       
+         margin: auto;
+         border: none;
+
+         .p-field {
+             margin-top: 1.5em;
+         }
+         button {
+             margin: 1.5em 0;
+             float: right;
+             height: 2.5em;
+         }
+        .forgot-pwd {
+            margin-top: 1em;
+            display: flex;
+            font-size: 10pt;
+            letter-spacing: 0.03px;
+            color: #FF6740;
+            cursor: pointer;
+        }
+    }
+
+}

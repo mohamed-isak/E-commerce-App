@@ -1,0 +1,54 @@
+@use "../../assets/styles/basics" as basic;
+
+.header-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 0px #e1e4e6;
+  opacity: 1;
+  height: 120px;
+  padding: 0 1rem;
+
+  .main-nav-item {
+    margin-left: 2rem;
+    padding-top: 1rem;
+  }
+  .nav-link {
+    &.active {
+      border-bottom: 3px solid;
+    }
+  }
+  .header-item {
+    margin-right: 2em;
+    cursor: pointer;
+    &.cart-icn {
+      position: relative;
+      cursor: pointer;
+      span {
+        background: #ff6740 0% 0% no-repeat padding-box;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 1em;
+        text-align: center;
+        font-size: 8pt;
+        line-height: 20px;
+        position: absolute;
+        left: 3em;
+        bottom: 3em;
+      }
+    }
+    .acnt-txt {
+      line-height: 2em;
+    }
+  }
+  .link-desc-txt {
+    letter-spacing: 0.03px;
+    color: #4b567b;
+    font-size: 16px;
+  }
+  strong {
+    letter-spacing: 0.04px;
+    color: #000d41;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+}

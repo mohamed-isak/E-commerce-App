@@ -1,0 +1,40 @@
+.product-list-conatiner {
+  margin-top: 100px;
+}
+
+.product-list-conatiner .product-bredcrumb {
+  padding: 1em;
+}
+
+.product-list-conatiner .product-bredcrumb button {
+  float: right;
+}
+
+.product-list-conatiner .category-head-txt {
+  font: normal normal 600 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #000D41;
+}
+
+.product-list-conatiner .filter-row {
+  margin-bottom: 1em;
+}
+
+.product-list-conatiner .product-item {
+  margin-bottom: 1.2em;
+}
+
+.product-list-conatiner .sort-conatiner {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 2em;
+}
+
+.product-list-conatiner .filter-txt {
+  font: normal normal 600 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #000D41;
+  font-size: 11pt;
+}
+/*# sourceMappingURL=WishListComponent.css.map */

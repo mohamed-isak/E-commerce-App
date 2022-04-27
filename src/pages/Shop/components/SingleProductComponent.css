@@ -1,0 +1,60 @@
+.single-product-container {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.single-product-container .p-card-body {
+  padding: 0;
+}
+
+.single-product-container .p-card-body .p-card-content {
+  padding: 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 2px 0px #e7e8ec80;
+          box-shadow: 0px 2px 0px #e7e8ec80;
+  border: 1px solid #E7E9EB;
+  border-radius: 22px;
+}
+
+.single-product-container .img-wrapper {
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 6px 10px #00000000;
+          box-shadow: 0px 6px 10px #00000000;
+  border-radius: 21px 21px 0px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.single-product-container .product-descr-container {
+  padding: .5em 1.8em;
+  line-height: 1.1em;
+}
+
+.single-product-container .product-descr-container .product-name {
+  font-size: 8pt;
+}
+
+.single-product-container .product-descr-container .product-price {
+  font-size: 9pt;
+}
+
+.single-product-container .product-descr-container .old-price {
+  color: #909BAD;
+  text-decoration: line-through;
+  font-size: 9pt;
+  margin-left: .5em;
+}
+
+.single-product-container .product-descr-container .cart-icn {
+  text-align: end;
+  cursor: pointer;
+}
+
+.single-product-container .review-row {
+  margin-top: 1em;
+  font-size: 8pt;
+  margin-bottom: 1em;
+  padding-left: 1.2em;
+  line-height: 0em;
+}
+/*# sourceMappingURL=SingleProductComponent.css.map */
